@@ -3,15 +3,15 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navigation from '../../layout/Navbar'
+import Navigation from '../../layout/navbar/Navbar'
 import Index from '../index/Index'
 import Sites from '../Sites/Sites'
 import SiteDetails from '../Sites/details/SiteDetails';
 import Profile from '../auth/Profile'
 import Signup from '../signup/Signup';
 import Login from '../login/Login'
+import Footer from '../../layout/footer/Footer';
 
-import Alert from '../../utils/alert/Alert'
 import AuthService from '../../../services/auth.service';
 
 import './App.css';
@@ -60,8 +60,9 @@ class App extends Component{
                 <Route path='/login' render={props => <Login   setTheUser={this.setTheUser}  {...props} />}/>
 
             </Switch>
-
-            <Alert />
+          
+          <Footer />
+          
         </>
    )
  }

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 import Navbar from 'react-bootstrap/Navbar'
 
-import AuthService from '../../services/auth.service'
+import AuthService from '../../../services/auth.service'
 
 
 import './Navbar.css'

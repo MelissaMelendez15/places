@@ -155,15 +155,7 @@ class Index extends Component {
 
                 </section>
 
-                <section className='sec4'>
-
-                    <h4>Contacta con nosotros</h4>
-                
-                </section>
-
-              
-            
-            </Container>
+             </Container>
         )
     }
 }

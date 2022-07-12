@@ -53,7 +53,7 @@
 }
 
 .sec3 {
-    background-color: #8FBC8F;
+    background-color:#F49696;
     transition: all 0.8s;
 }
 
@@ -103,14 +103,6 @@
     color:white;
     transform: scale(1.2);
 
-}
-
-.sec4 {
-    text-align: center;
-    margin-bottom: 10px;
-    background-color:  #008B8B;
-    color: white;
-    width: 100vw;
 }
 
 @media (max-width: 900px) {
