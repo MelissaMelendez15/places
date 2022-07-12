@@ -2,8 +2,8 @@ footer {
     height: 10vh;
     display: flex;
     align-items: center;
-   
     background-color: #20B2AA;
+    margin-bottom: 0;
     bottom: 0;
     width: 100%;
     justify-content: center;
