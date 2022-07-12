@@ -1,0 +1,43 @@
+.signupPage {
+    margin-top: 15%;
+}
+
+.signupPage > h1 {
+    padding-bottom: 5%;
+}
+
+.signupBtn {
+    padding: 10px 15px;
+    border: solid 3px #20B2AA;
+    border-radius: 20px;
+    color:#5483D6;
+    font-size: 1.2em;
+    background-color: white;
+    margin: 3% 0;
+}
+
+.signupBtn:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+
+@media (max-width: 680px) {
+    .signupPage {
+        margin-top: 25%;
+    }
+    
+    .signupPage > h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+        padding-bottom: 5%;
+        font-size: 2em;
+    }
+
+    label {
+        margin-top: 1rem;
+    }
+    
+}
